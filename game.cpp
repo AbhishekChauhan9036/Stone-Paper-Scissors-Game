@@ -14,7 +14,8 @@ public:
 
     void determineWinner(){} // Jadeja & Kamil
 
-    string choiceToString(int choice){switch (choice) {
+    string choiceToString(int choice)
+         switch (choice) {
             case 1:
                 return "Rock";
             case 2:
@@ -22,7 +23,7 @@ public:
             case 3:
                 return "Scissors";
             default:
-                throw std::invalid_argument("Invalid choice. Please choose 1 (Rock), 2 (Paper), or 3 (Scissors).");
+                return "unknown";
         }
                                      } 
 };
