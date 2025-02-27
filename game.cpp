@@ -51,7 +51,8 @@ public:
                 (playerChoice == 3 and computerChoice == 2)){
             cout<<endl<<"Congratulations You Win!... Hurray🥳"<<endl<<endl;
         }else{
-            cout<<endl<<"Computer Win! Better Luck Next Time😭"<<endl<<endl;
+            cout<<endl<<"Computer Win! your bad 🙁"<<endl<<endl;
+            cout<<endl<<"Better Luck Next Time...🫡"<<endl<<endl;
         }
     }
 };
@@ -70,5 +71,6 @@ int main() {
 
     cout<<"Thanks for Playing😊.  Visit Again..."<<endl;
     cout<<"We hope to see you again"<<endl;
+    cout<<"We will surely look forward to your next visit"<<endl;
     return 0;
 }
