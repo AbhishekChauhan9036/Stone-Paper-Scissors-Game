@@ -45,13 +45,13 @@ public:
         cout<<"Computer Choose: "<<choiceToString(computerChoice)<<endl;
 
         if(playerChoice == computerChoice){
-            cout<<"Game is Draw 😐 "<<endl;
+            cout<<"Game is Draw  "<<endl;
         }else if((playerChoice == 1 and computerChoice == 3) or
                 (playerChoice == 2 and computerChoice == 1) or
                 (playerChoice == 3 and computerChoice == 2)){
-            cout<<endl<<"Congratulations You Win!... Hurray🥳"<<endl<<endl;
+            cout<<endl<<"Congratulations You Win!... can you want to try and win😀"<<endl<<endl;
         }else{
-            cout<<endl<<"Computer Win! Better Luck Next Time😭"<<endl<<endl;
+            cout<<endl<<"Computer Win! Better Luck Next Time bad luck 😢"<<endl<<endl;
         }
     }
 };
@@ -68,7 +68,7 @@ int main() {
         cin>>playAgain;
     }while(playAgain == 'Y' or playAgain == 'y');
 
-    cout<<"Thanks for Playing😊.  Visit Again..."<<endl;
+    cout<<"Thanks for Playing.  Visit Again..."<<endl;
     cout<<"We hope to see you again"<<endl;
     return 0;
 }
