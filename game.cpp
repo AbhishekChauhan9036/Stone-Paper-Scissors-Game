@@ -13,6 +13,7 @@ public:
     }
 
     void getPlayerChoice(){
+        cout<<"Hello Player!"<<endl;
         cout<<"\nChoose the option:- \n";
         cout<<" 1.Stone\n 2.Paper\n 3.Scissors\n";
         cout<<"Enter Your Choice(1-3):- ";
