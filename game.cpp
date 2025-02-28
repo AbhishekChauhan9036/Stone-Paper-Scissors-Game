@@ -71,6 +71,8 @@ int main() {
     cout << "Thanks for Playing. Visit Again!" << endl;
     cout << "We hope to see you again!" << endl;
     cout << "We will surely look forward to your next visit." << endl;
+    cout<<"Thank you for join the game!"<<endl;
+    cout<<"Hope you enjoyed the game!"<<endl;
     
     return 0;
 }
